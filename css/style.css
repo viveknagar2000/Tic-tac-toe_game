@@ -1,0 +1,211 @@
+/* *{
+	padding : 0px;
+	margin : 0px;
+	font-family : "radio canada" , sans-serif;
+ } */
+
+/* 
+body{	
+	background-color: white ; 
+  }
+
+
+.header{	
+		display : flex;
+		align-items : center;
+		justify-content : center;
+		margin : 15px;
+	}
+
+
+.header h1{
+		text-align : center ;
+	}
+
+
+.box{		
+		display : flex;
+		align-items : center;
+		justify-content : center;
+		flex-direction : column;
+		margin : 35px;
+	}
+
+.row{
+		display : flex;
+		align-items : center;
+		justify-content : center;
+	}
+
+
+.btn{
+	border : 1px solid black;
+	border-radius : 5px;
+	height : 75px;
+	margin : 2px;
+	width : 75px;
+	text-align : center;
+	font-size : 50px;
+	font-weight : 500;	
+   }
+
+.btn:hover{
+		cursor : pointer;
+		background-color : rgb(240,240,240) ;
+	}
+
+
+.btn:disabled{
+		color : black;
+		cursor : no-drop;
+	}
+
+.result{
+	text-align : center;
+	}
+
+.reset{
+	text-align : center;
+	}
+
+
+#reset{
+	border : 1px solod black;
+	border-radius : 5px;
+	cursor : pointer;
+	margin : 35px;
+	color : black;
+	background-color : white ;
+	padding : 5px 20px;
+	font-size : 17px;
+	transition : all 0.1s ease-in-out;
+  }
+
+
+#reset:hover{
+		color : white;
+		background-color : #e60000;
+	} */
+
+/* ----------------------------------- */
+
+*{
+	padding : 0px;
+	margin : 0px;
+	font-family : "radio canada" , sans-serif;
+ }
+
+nav{
+	background-color: blueviolet;
+	color: white;
+	height: 75px;
+	font-size: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 12px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+.gameContainer{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 50px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(3, 10vw);
+	grid-template-rows: repeat(3, 10vw);
+}
+
+.box{
+	border: 1.5px solid black;
+	font-size: 8vw;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box:hover{
+		background-color: rgba(165, 119, 207, 0.542);
+}
+
+.info{
+	font-size: 25px;
+}
+
+.gameInfo{
+	padding: 0 34px;
+}
+
+.imgbox img{
+	width : 0;
+	transition: width 1s ease-in-out;
+}
+
+.br-0{
+	border-right: 0;
+}
+
+.bl-0{
+	border-left: 0;
+}
+
+.bt-0{
+	border-top: 0;
+}
+
+.bb-0{
+	border-bottom: 0;
+}
+
+#reset{
+	margin: 0px 23px;
+	padding: 5px 20px;
+	background: rgb(167, 94, 191);
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: medium;
+}
+
+@media (min-width:0px) and  (max-width:768px) {
+
+	.gameInfo{
+		margin-top: 34px;
+	}
+	.gameInfo h1{
+				font-size: 20px;
+	}
+
+	.info{
+		font-size: 1rem;
+	}
+
+	.btn{
+		margin-top: 0.5rem;
+	}
+	#reset{
+		margin: 0px 15px;
+		padding: 1px 12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
